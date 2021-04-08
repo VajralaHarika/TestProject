@@ -1,0 +1,78 @@
+ <!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>JavaScript Form Validation using a sample registration form</title>
+<meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+<meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+<link rel='stylesheet' href='register.css' type='text/css' />
+</head>
+<body onload="document.registration.userid.focus();">
+<div class="wrapper">
+	<div class="registration_form">
+		<div class="title">
+		 Registration Form
+		</div>
+
+		<form action="registercheck.jsp">
+			<div class="form_wrap">
+				<div class="input_grp">
+					<div class="input_wrap">
+						<label for="fname">First Name</label>
+						<input type="text" name="fname" required>
+					</div>
+					<div class="input_wrap">
+						<label for="lname">Last Name</label>
+						<input type="text" name="lname" requird>
+					</div>
+				</div>
+				<div class="input_wrap">
+					<label for="email">Email Address</label>
+					<input type="email" name="email" required>
+				</div>
+				<div class="input_wrap">
+					<label for="password">Password</label>
+					<input type="password" name="passwd" required>
+				</div>
+				<div class="input_wrap">
+					<label>Gender</label>
+					<ul>
+						<li>
+							<label class="radio_wrap">
+								<input type="radio" name="gender" value="male" class="input_radio" checked>
+								<span>Male</span>
+							</label>
+						</li>
+						<li>
+							<label class="radio_wrap">
+								<input type="radio" name="gender" value="female" class="input_radio">
+								<span>Female</span>
+							</label>
+						</li>
+					</ul>
+				</div>
+				<div class="input_wrap">
+					<label for="city">City</label>
+					<input type="text" name="city" required>
+				</div>
+				<div class="input_wrap">
+					<label for="country">Country</label>
+					<input type="text" name="country" required>
+				</div>
+				<div class="input_wrap">
+					<input type="submit" value="Register Now" class="submit_btn">
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+</body>
+</ht
+d>
+<select name="Select the subject" id="Select the subject">
+<option value="SUBJECTS">SUBJECTS:</option>
+<option value="MATHS">MATHS</option>
+<option value="ENGLISH">ENGLISH</option>
+<option value="PROGRAMMING">PROGRAMMING</option>
+<option value="DATA SCIENCE">DATA SCIENCE</option>
+</select>
+</td>
